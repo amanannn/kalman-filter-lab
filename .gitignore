@@ -3,13 +3,14 @@ venv/
 
 # Python cache
 __pycache__/
+*/__pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# Generated output images (reproducible by running the script)
-kalman_static.png
-kalman_animated.gif
+# Generated output directory (all images and animations)
+output/*.png
+output/*.gif
 
 # Claude Code config
 .claude/
